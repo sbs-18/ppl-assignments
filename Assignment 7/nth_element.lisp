@@ -1,0 +1,5 @@
+(defun nth (n list)
+       (cond ((= n 1) (car list))
+             (t (- n 1) (cdr list))
+        )
+)
